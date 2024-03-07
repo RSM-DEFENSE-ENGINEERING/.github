@@ -43,7 +43,7 @@ They should change one thing only
 //Import utilities module
 mod collin's_module;
 //Set host
-static x: &str = "rsm.stellarcyber.cloud";
+static x: &str = "google.com";
 ```
 - Allow code to document itself through proper variable naming, we can refactor above to to maintain meaning without comments
 ```rust
