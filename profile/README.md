@@ -5,7 +5,7 @@ This document will provide guide lines and standards to promote clean maintainab
 This prevents them for being stored in our github repos.
 - For local testing use .env files to store environment variables but **ENSURE** .env file is added to the .gitignore file.
 - If you must use a .json again add it to the .gitignore file
-- (If you are unsure how to best use .gitignore)[https://github.com/github/gitignore]
+- [If you are unsure how to best use .gitignore](https://github.com/github/gitignore)
 
 ## Readmes
 - Readmes should contain
@@ -52,7 +52,7 @@ static base_url: &str = "google.com";
 ```
 - For documentation comments use your language's industry standard
 - - For python this means PEP 257 -- Docstring Conventions
-- - For rust, (RustDoc)[https://doc.rust-lang.org/beta/rust-by-example/meta/doc.html]
+- - For rust, [RustDoc](https://doc.rust-lang.org/beta/rust-by-example/meta/doc.html)
 - - For javascript, just use typescript or JsDoc if you must use javascript
 - Changes to be made later or possible improvements can be denoted with a comment like //TODO: <Message>
 
