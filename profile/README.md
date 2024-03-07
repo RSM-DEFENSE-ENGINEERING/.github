@@ -1,7 +1,7 @@
 # RSM Defense Engineering Git Guide
 This document will provide guide lines and standards to promote clean maintainable code.
 ## Secret Storage
-- Prefer storing API Tokens environment variables and use libraries like os in python, std::env in rust, or node's process.env to retrieve
+- Prefer storing API Tokens/secrets in environment variables and use libraries like os in python, std::env in rust, or node's process.env to retrieve
 This prevents them for being stored in our github repos.
 - For local testing use .env files to store environment variables but **ENSURE** .env file is added to the .gitignore file.
 - If you must use a .json again add it to the .gitignore file
