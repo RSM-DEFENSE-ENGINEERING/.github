@@ -8,7 +8,7 @@ This prevents them for being stored in our github repos.
 - [If you are unsure how to best use .gitignore](https://github.com/github/gitignore)
 
 ## Readmes
-- Readmes should contain
+### Readmes should contain
 1. Basic summary and overview of the project
 2. Information required to get a dev environment up and running... for most this will be a simple pip install -r requirements.txt
 3. Include steps to compile, bundle(if necessary), and deploy. If hosted on cloud service a deployment script is preferred
