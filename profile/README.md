@@ -32,7 +32,9 @@ They should change one thing only
 - Fix: Bug with input field not rendering
 
 ## Branches
-- When making changes to code base create a new branch and follow commit naming convention:
+- When making changes to code base create a new branch and follow commit naming convention
+- When a new version or feature is ready to be pushed merge the branch back to main/master and push to production.
+- If using a automated deployment pipeline ensure it only fires on merge to main
 - In a project where CAB needs to be invovled in creating changes the main branch should be **LOCKED** for direct commits
     It should only be altered through a pull request approved by reviewers
 
@@ -60,6 +62,10 @@ static base_url: &str = "google.com";
 - Please use your language standard formatting rules, for python this means PEP
 - For javascript it's the wild west but keep it consistent
 - Neovim and VSCode both have extensions to autoformat on save
+
+## Deployment
+- Use github actions to automate deployment of complex tasks to save time.
+- If deploymnet is unable to be automated thoroughly document it's deployment process so someone completely unfamiliar with project could deploy if you are on PTO and something breaks.
 
 ## Code Review
 TODO
